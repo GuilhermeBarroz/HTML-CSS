@@ -1,0 +1,23 @@
+@charset "utf-08";
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div{
+
+    font-weight: bold;
+}
+
+div:hover{
+   color: brown;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    color: brown;
+}

@@ -1,0 +1,23 @@
+@charset "utf-08";
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&family=Shadows+Into+Light&display=swap'); /*indie flower*/
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&family=Permanent+Marker&family=Roboto+Mono:wght@100;200;400;500;600&family=Shadows+Into+Light&display=swap'); /*Roboto Mono*/
+
+body{
+    
+    font-family: 'indie flower', Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-style: normal;
+    color: brown;
+
+}
+
+h1 {
+   font-family: 'Roboto Mono', monospace, Arial, Helvetica, sans-serif;
+    
+}
+h2{
+    font-family: 'Roboto Mono', monospace, Arial, Helvetica, sans-serif;
+    
+} 

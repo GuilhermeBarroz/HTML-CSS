@@ -1,0 +1,48 @@
+@charset "utf-08";
+
+body{
+    background-color: rgb(129, 50, 139);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(255, 139, 158);
+    
+
+}
+
+h1:hover{
+    color: white;
+
+}
+
+a{
+    color: darkred;
+    text-decoration: none;
+}
+
+a:visited{
+    color: pink;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.tribo::before{
+    content: '»	' ;
+    color: white;
+}
+
+.tribo::after{
+
+   content: ' «';
+   color: white; 
+   text-decoration: none;
+   font-weight: normal;
+}
+
+input:hover{
+    background-color: pink;
+}

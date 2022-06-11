@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+
+body{
+   background-color: rgb(42, 147, 165);
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* 
+    Medidas absolutas
+    cm, mm, in px, (pt, pc) não é recomendado utilizar em tela
+    
+    Medidas relativas
+    em (tamanho atual), ex (altura x de uma fonte), rem(relativo a fonte conf no body), vw( largura da viewport (tamanho de tela)), vh(altura da view port)
+
+    Recomenda-se o uso do PX e EM.
+
+    Geralmente é utilizado 16px como tamanho padrão das fontes
+    16px geralmente = 1em
+
+    Trabalhar com "em" é mais interessante, pois trabalha com porcentagem e tem mais adaptativdade em diferentes tipos de tela.
+
+    */
+
+    /* Weight = Peso, Widh = largura, higth = altura*/
+
+    font-size: 1em;
+    font-weight: normal;
+    font-style: normal;
+    
+    /* Peso das fontes = lighter, normal, bold, bolder
+    também tem variação numérica de 100 - 900*/
+
+}
+
+
+main{
+    background-color: white;
+    min-width: 320px;
+    max-width: 900px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+}
+
+h1, h2 {
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-decoration: underline; /*sublinhado*/
+}
+p{
+    
+    letter-spacing: 1px; /*espaçamento entre linhas*/
+    text-indent: 3em; /*recuo da primeira linha do texto*/
+    text-align: justify;
+
+    /*shorthand font - executar nessa ordem
+     - font-style -> font-weight -> font-size -> font-family  
+        font-weight: normal;
+        font-style: italic;
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;*/
+
+    font: italic normal 1em arial, helvetica, sans-serif; 
+}

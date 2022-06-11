@@ -1,0 +1,50 @@
+@charset "utf-08";
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+@font-face {
+    font-family: 'antoniolight';
+    src: url('antonio-light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/*
+    Tipos de format()
+    - opentype (otp)
+    -truetype (ttf)
+    -embedded-opentype
+    -truetype-aat (Apple Advanced typography)
+    -svg
+
+*/
+
+body{
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+     
+}
+
+h1{
+    font-family: antoniolight, Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    letter-spacing: 10px;
+}
+
+h2{
+    font-family: 'Monoton', Arial, Helvetica, sans-serif;
+    letter-spacing: 8px;
+
+}
+
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    text-indent: 3em;
+    letter-spacing: normal; /*espaçamento entre palavras*/
+    
+}

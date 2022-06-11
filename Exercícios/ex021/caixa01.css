@@ -1,0 +1,32 @@
+@charset "utf-08";
+
+h1{ /*
+     Por padrão é um box-level
+     Mas pode ser trasnformado em inline-level
+     display: inline;   
+    */
+    
+    background-color: lightskyblue;
+    height: 300px;
+    width: 300px;
+
+    border: 10px solid gray;
+
+    padding: 10px 10px 10px 10px;
+      
+    margin: 10px auto 20px auto; 
+
+    outline: 5px dashed black;
+}
+
+
+a{ /*
+    Por padrão é um inline-level
+    Mas pode ser trasnformado em boz-level
+    display: block;
+   */
+    
+    border-width: 10px;
+    border-style: solid;
+    border-color: brown;
+}
