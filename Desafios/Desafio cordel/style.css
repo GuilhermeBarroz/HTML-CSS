@@ -26,7 +26,8 @@ header > h1{
     font-family: 'Passion One', cursive;
     font-variant: small-caps;
     font-weight: bold;
-    font-size: 86px;        
+    font-size: 86px; 
+    font-size: 10vw;
 }
 
 nav{
@@ -47,19 +48,17 @@ nav a{
 nav a:hover{
     text-decoration: underline;
 }
-
-
-
 main{
-    font-family: 'Sriracha', cursive;
-    font-size: 33px;
-}
+    font-size: 20px;
 
+}
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: 'Sriracha', cursive;
+    font-size: 3.5vw;
 }
 
 .fundo-branco1{
@@ -85,8 +84,10 @@ section{
 
 .fundo-img1 > p{
     background-color: rgba(0, 0, 0, 0.39);
-    width: 450px;
+    display: inline-block;
+    padding: 10px;
     color: white;
+    
 }
 
 .fundo-img2{
@@ -95,7 +96,8 @@ section{
 
 .fundo-img2 > p {
     background-color: rgba(0, 0, 0, 0.39);
-    width: 450px;
+    display: inline-block;
+    padding: 10px;
     color: white;
 }
 
@@ -105,13 +107,12 @@ footer{
     color: white;
     text-align: center;
     padding: 8px;
+    font-size: 15px;
 }
 
 footer a{
-    text-align: center;
     text-decoration: none;
     color: white;
-    font-size: 20px;
 }
 
 footer a:hover{
