@@ -1,0 +1,119 @@
+@charset "utf-08";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap'); /*Fonte do título*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap'); /*Fonte do cordel*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgrey;
+}
+
+header{
+    background-color: black;
+    background-size: cover;
+    text-align: center;
+}
+
+header > h1{
+    color: white;
+    padding-top: 70px;
+    font-family: 'Passion One', cursive;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 86px;        
+}
+
+nav{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+
+
+main{
+    font-family: 'Sriracha', cursive;
+    font-size: 33px;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+.fundo-branco1{
+    background-color: white;
+    color: black;
+}
+
+
+.fundo-branco2{
+    background-color: white;
+    color: black;
+}
+
+
+.fundo-branco3{
+    background-color: white;
+    color: black;
+}
+
+.fundo-img1{
+    background-image: url(imagens/background001.jpg);
+}
+
+.fundo-img1 > p{
+    background-color: rgba(0, 0, 0, 0.39);
+    width: 450px;
+    color: white;
+}
+
+.fundo-img2{
+    background-image: url(imagens/background002.jpg);
+}
+
+.fundo-img2 > p {
+    background-color: rgba(0, 0, 0, 0.39);
+    width: 450px;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    font-family: 'Sriracha', cursive;
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+
+footer a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
