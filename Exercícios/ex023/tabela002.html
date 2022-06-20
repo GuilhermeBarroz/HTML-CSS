@@ -4,38 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <style>
-            body{
-                font-family: Arial, Helvetica, sans-serif;
-            }
-
-            table{
-                width: 600px;
-                border-collapse: collapse;
-            }
-                
-            thead, tfoot{
-                background-color: darkblue;
-                color: whitesmoke;
-            }
-
-            th, td{
-                border: 1px solid
-                black; 
-                padding: 10px;
-            }
-
-
-            .populacao{
-                text-align: center;
-            }
-
-            .percentual{
-                text-align: right;
-            }
-
-        </style>
+        <link rel="stylesheet" href="style.css">
 
         <title>Tabelas</title>
     </head>
@@ -53,11 +22,12 @@
          -->
 
          <table>
+            <caption>População das Unidades Federativas</caption>
             <thead>
                 <tr>
-                    <th>Estado</th>
-                    <th>População</th>
-                    <th>% da pop. total</th>
+                    <th scope="col">Estado</th>
+                    <th scope="col">População</th>
+                    <th scope="col">% da pop. total</th>
                 </tr>
             </thead>
             <tbody>
@@ -96,14 +66,140 @@
                     <td class="populacao">9.557.071</td>
                     <td class="percentual">4,5%</td>
                 </tr>
+                <tr>
+                    <td>São Paulo</td>
+                    <td class="populacao">45.919.049</td>
+                    <td class="percentual">21,9%</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="populacao">21.168.791</td>
+                    <td class="percentual">10,1%</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="populacao">17.264.943</td>
+                    <td class="percentual">8,2%</td>
+                </tr>
+                <tr>
+                    <td>Bahia</td>
+                    <td class="populacao">14.873.064</td>
+                    <td class="percentual">7,1%</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td class="populacao">11.433.957</td>
+                    <td class="percentual">5,4%</td>
+                </tr>
+                <tr>
+                    <td>Rio Grade do Sul</td>
+                    <td class="populacao">11.377.239</td>
+                    <td class="percentual">5,4%</td>
+                </tr>
+                <tr>
+                    <td>Pernambuco</td>
+                    <td class="populacao">9.557.071</td>
+                    <td class="percentual">4,5%</td>
+                </tr>
+                <tr>
+                    <td>São Paulo</td>
+                    <td class="populacao">45.919.049</td>
+                    <td class="percentual">21,9%</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="populacao">21.168.791</td>
+                    <td class="percentual">10,1%</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="populacao">17.264.943</td>
+                    <td class="percentual">8,2%</td>
+                </tr>
+                <tr>
+                    <td>Bahia</td>
+                    <td class="populacao">14.873.064</td>
+                    <td class="percentual">7,1%</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td class="populacao">11.433.957</td>
+                    <td class="percentual">5,4%</td>
+                </tr>
+                <tr>
+                    <td>Rio Grade do Sul</td>
+                    <td class="populacao">11.377.239</td>
+                    <td class="percentual">5,4%</td>
+                </tr>
+                <tr>
+                    <td>Pernambuco</td>
+                    <td class="populacao">9.557.071</td>
+                    <td class="percentual">4,5%</td>
+                </tr>
+                <tr>
+                    <td>São Paulo</td>
+                    <td class="populacao">45.919.049</td>
+                    <td class="percentual">21,9%</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="populacao">21.168.791</td>
+                    <td class="percentual">10,1%</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="populacao">17.264.943</td>
+                    <td class="percentual">8,2%</td>
+                </tr>
+                <tr>
+                    <td>Bahia</td>
+                    <td class="populacao">14.873.064</td>
+                    <td class="percentual">7,1%</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td class="populacao">11.433.957</td>
+                    <td class="percentual">5,4%</td>
+                </tr>
+                <tr>
+                    <td>Rio Grade do Sul</td>
+                    <td class="populacao">11.377.239</td>
+                    <td class="percentual">5,4%</td>
+                </tr>
+                <tr>
+                    <td>Pernambuco</td>
+                    <td class="populacao">9.557.071</td>
+                    <td class="percentual">4,5%</td>
+                </tr>
             </tbody>
             <tfoot>
                 <tr>
-                    <th>Total de habitantes</th>
+                    <th scope="row">Total de habitantes</th>
                     <td class="populacao">0000</td>
                 </tr>
             </tfoot>
          </table>
+         <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis perferendis doloribus ab aperiam rerum sit cumque omnis asperiores illo explicabo repellat sunt neque, accusantium qui? Doloribus adipisci facilis inventore enim. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae quibusdam quidem illo atque dignissimos reprehenderit nihil dolor quos obcaecati nulla dolorum quae fuga, ab voluptate necessitatibus distinctio dolorem natus odio. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia provident minus, soluta doloribus cupiditate nihil dolor, nesciunt rerum ipsa vel, architecto asperiores. Amet eos ducimus quae, cumque odit consequuntur accusantium. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptatibus placeat corrupti totam! Enim eligendi eaque voluptatibus exercitationem fugiat fugit, accusamus quia numquam commodi rem sint perferendis aliquid quas at. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed reprehenderit tempore, ad consectetur minus perspiciatis illum, voluptatem eum quae beatae inventore enim nemo aspernatur cupiditate dolore laudantium doloremque? Nulla, blanditiis.
+         </p>
+         <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis perferendis doloribus ab aperiam rerum sit cumque omnis asperiores illo explicabo repellat sunt neque, accusantium qui? Doloribus adipisci facilis inventore enim. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae quibusdam quidem illo atque dignissimos reprehenderit nihil dolor quos obcaecati nulla dolorum quae fuga, ab voluptate necessitatibus distinctio dolorem natus odio. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia provident minus, soluta doloribus cupiditate nihil dolor, nesciunt rerum ipsa vel, architecto asperiores. Amet eos ducimus quae, cumque odit consequuntur accusantium. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptatibus placeat corrupti totam! Enim eligendi eaque voluptatibus exercitationem fugiat fugit, accusamus quia numquam commodi rem sint perferendis aliquid quas at. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed reprehenderit tempore, ad consectetur minus perspiciatis illum, voluptatem eum quae beatae inventore enim nemo aspernatur cupiditate dolore laudantium doloremque? Nulla, blanditiis.
+         </p>
+         <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis perferendis doloribus ab aperiam rerum sit cumque omnis asperiores illo explicabo repellat sunt neque, accusantium qui? Doloribus adipisci facilis inventore enim. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae quibusdam quidem illo atque dignissimos reprehenderit nihil dolor quos obcaecati nulla dolorum quae fuga, ab voluptate necessitatibus distinctio dolorem natus odio. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia provident minus, soluta doloribus cupiditate nihil dolor, nesciunt rerum ipsa vel, architecto asperiores. Amet eos ducimus quae, cumque odit consequuntur accusantium. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptatibus placeat corrupti totam! Enim eligendi eaque voluptatibus exercitationem fugiat fugit, accusamus quia numquam commodi rem sint perferendis aliquid quas at. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed reprehenderit tempore, ad consectetur minus perspiciatis illum, voluptatem eum quae beatae inventore enim nemo aspernatur cupiditate dolore laudantium doloremque? Nulla, blanditiis.
+         </p>
+         <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis perferendis doloribus ab aperiam rerum sit cumque omnis asperiores illo explicabo repellat sunt neque, accusantium qui? Doloribus adipisci facilis inventore enim. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae quibusdam quidem illo atque dignissimos reprehenderit nihil dolor quos obcaecati nulla dolorum quae fuga, ab voluptate necessitatibus distinctio dolorem natus odio. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia provident minus, soluta doloribus cupiditate nihil dolor, nesciunt rerum ipsa vel, architecto asperiores. Amet eos ducimus quae, cumque odit consequuntur accusantium. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptatibus placeat corrupti totam! Enim eligendi eaque voluptatibus exercitationem fugiat fugit, accusamus quia numquam commodi rem sint perferendis aliquid quas at. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed reprehenderit tempore, ad consectetur minus perspiciatis illum, voluptatem eum quae beatae inventore enim nemo aspernatur cupiditate dolore laudantium doloremque? Nulla, blanditiis.
+         </p>
+         <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis perferendis doloribus ab aperiam rerum sit cumque omnis asperiores illo explicabo repellat sunt neque, accusantium qui? Doloribus adipisci facilis inventore enim. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae quibusdam quidem illo atque dignissimos reprehenderit nihil dolor quos obcaecati nulla dolorum quae fuga, ab voluptate necessitatibus distinctio dolorem natus odio. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia provident minus, soluta doloribus cupiditate nihil dolor, nesciunt rerum ipsa vel, architecto asperiores. Amet eos ducimus quae, cumque odit consequuntur accusantium. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptatibus placeat corrupti totam! Enim eligendi eaque voluptatibus exercitationem fugiat fugit, accusamus quia numquam commodi rem sint perferendis aliquid quas at. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed reprehenderit tempore, ad consectetur minus perspiciatis illum, voluptatem eum quae beatae inventore enim nemo aspernatur cupiditate dolore laudantium doloremque? Nulla, blanditiis.
+         </p>
+         <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis perferendis doloribus ab aperiam rerum sit cumque omnis asperiores illo explicabo repellat sunt neque, accusantium qui? Doloribus adipisci facilis inventore enim. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae quibusdam quidem illo atque dignissimos reprehenderit nihil dolor quos obcaecati nulla dolorum quae fuga, ab voluptate necessitatibus distinctio dolorem natus odio. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia provident minus, soluta doloribus cupiditate nihil dolor, nesciunt rerum ipsa vel, architecto asperiores. Amet eos ducimus quae, cumque odit consequuntur accusantium. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptatibus placeat corrupti totam! Enim eligendi eaque voluptatibus exercitationem fugiat fugit, accusamus quia numquam commodi rem sint perferendis aliquid quas at. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed reprehenderit tempore, ad consectetur minus perspiciatis illum, voluptatem eum quae beatae inventore enim nemo aspernatur cupiditate dolore laudantium doloremque? Nulla, blanditiis.
+         </p>
+         <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis perferendis doloribus ab aperiam rerum sit cumque omnis asperiores illo explicabo repellat sunt neque, accusantium qui? Doloribus adipisci facilis inventore enim. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae quibusdam quidem illo atque dignissimos reprehenderit nihil dolor quos obcaecati nulla dolorum quae fuga, ab voluptate necessitatibus distinctio dolorem natus odio. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia provident minus, soluta doloribus cupiditate nihil dolor, nesciunt rerum ipsa vel, architecto asperiores. Amet eos ducimus quae, cumque odit consequuntur accusantium. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptatibus placeat corrupti totam! Enim eligendi eaque voluptatibus exercitationem fugiat fugit, accusamus quia numquam commodi rem sint perferendis aliquid quas at. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed reprehenderit tempore, ad consectetur minus perspiciatis illum, voluptatem eum quae beatae inventore enim nemo aspernatur cupiditate dolore laudantium doloremque? Nulla, blanditiis.
+         </p>
     </body>
 
 </html>
